@@ -18,7 +18,8 @@ The easiest and the most convenient way to use such mini-programs is to remove `
 
 * **slq** - watch for slurm jobs statuses (wrapper over `squeue -l | grep ${jobId}`)  
 _CLI_ (positional arguments):   
-    * Id of the first job in the list of monitored jobs
+    * If no arguments specified, monitors all jobs for current user.
+    * Id of the first job in the list of monitored jobsm
     * Id of the last job in the list of monitored jobs. If not specified, only first job will be monitored.
 
 * **tl** - monitor log file with `tail` and `bat`.  
