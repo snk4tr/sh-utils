@@ -10,7 +10,8 @@ The easiest and the most convenient way to use such mini-programs is to remove `
 **slq**:
 
 1) `$ cp ./ ~/.local/bin/slq` - copy the file.
-2) `$ PATH="~/.local/bin:$PATH"` - add bin folder to the path.
+2) `$ chmod +x ~/.local/bin/slq` - give permition to execute.
+3) (_Only first time_) `$ PATH="~/.local/bin:$PATH"` - add bin folder to the path.
 3) `$ slq 1 10` - and it works!
 
 ### Programs description
@@ -19,4 +20,8 @@ The easiest and the most convenient way to use such mini-programs is to remove `
 _CLI_ (positional arguments):   
     * Id of the first job in the list of monitored jobs
     * Id of the last job in the list of monitored jobs. If not specified, only first job will be monitored.
+
+* **tl** - monitor log file with `tail` and `bat`.  
+ _CLI_ (positional arguments):   
+    * log file name.
     
