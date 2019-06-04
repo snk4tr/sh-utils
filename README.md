@@ -15,4 +15,8 @@ The easiest and the most convenient way to use such mini-programs is to remove `
 
 ### Programs description
 
-* **slq** - watch for slurm jobs statuses (wrapper over `squeue -l | grep ${jobId}`)
+* **slq** - watch for slurm jobs statuses (wrapper over `squeue -l | grep ${jobId}`)  
+_CLI_ (positional arguments):   
+    * Id of the first job in the list of monitored jobs
+    * Id of the last job in the list of monitored jobs. If not specified, only first job will be monitored.
+    
