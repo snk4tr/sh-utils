@@ -25,4 +25,5 @@ _CLI_ (positional arguments):
 * **tl** - monitor log file with `tail` and `bat`.  
  _CLI_ (positional arguments):   
     * log file name.
+    * num lines to tail (defaults to 10 if not specified)
     
