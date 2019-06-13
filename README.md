@@ -26,4 +26,6 @@ _CLI_ (positional arguments):
  _CLI_ (positional arguments):   
     * log file name.
     * num lines to tail (defaults to 10 if not specified)
+
+* **find rogue** - track which program currently holds focus. Useful for tracking programs, whoch intercepting user's control. No CLI provided.
     
