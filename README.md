@@ -29,5 +29,7 @@ _CLI_ (positional arguments):
 
 * **find rogue** - track which program currently holds focus. Useful for tracking programs, whoch intercepting user's control. No CLI provided.
 
-* **start_jupyter** - start a jupyter lab (or notebook) daemon on an interactive node of a Slurm cluster. This particular script, when being run with `$ sbatch start_jupyter.sub`, starts the daemon on the `nvidia19` interactive node of the Hamburg Slurm cluster. One positional argument need to be provided: a port of the jupyter on the host machine.
+* **start_jupyter** - start a jupyter lab (or notebook) daemon on an interactive node of a Slurm cluster. This particular script, when being run with `$ sbatch start_jupyter.sub`, starts the daemon on the `nvidia19` interactive node of the Hamburg Slurm cluster.  
+_CLI_ (positional arguments):   
+    * Port of the jupyter on the host machine (required)
     
