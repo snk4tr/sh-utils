@@ -11,7 +11,7 @@ The easiest and the most convenient way to use such mini-programs is to remove `
 
 1) `$ cp ./ ~/.local/bin/slq` - copy the file.
 2) `$ chmod +x ~/.local/bin/slq` - give permition to execute.
-3) (_Only first time_) `$ PATH="~/.local/bin:$PATH"` - add bin folder to the path.
+3) (_Only first time_) `$ export PATH="~/.local/bin:$PATH"` - add bin folder to the path.
 3) `$ slq 1 10` - and it works!
 
 ### Programs description
